@@ -21,10 +21,10 @@ The dataset can be found here: https://www.kaggle.com/datasets/henrydioniz/swahi
    - Model used was Fine-tuned Afro-XLMR
 
 # Results
-The baseline Model achieved an F1 Score of 0.9825
-Results from the transformer model to be updated
+- The baseline Model achieved an F1 Score of 0.9825
+- Results from the transformer model to be updated
 
 # Installation
-Clone the repository:
-Install dependencies:
-Run the training script:
+1. Clone the repository
+2. Ensure all requirements and install dependencies:
+4. Run the notebooks
