@@ -25,6 +25,7 @@ XLM-RoBERTa by hugging face was used because it is pretrained on 100 different l
 
 # Results
 - The baseline Model achieved an F1 Score of 0.9825
+- The transformer model, on a batch size of 8 and 10 epochs, achieved an F1 score of 0.92662
 - Results from the transformer model to be updated
 
 # Installation
