@@ -206,15 +206,5 @@ results=pd.DataFrame({
     'Predicted_Label': all_test_preds
 })
 
-# Save the results
-results.to_csv("data/predictions.csv", index=False)
-# with torch.no_grad():
-#   test_seq,test_mask,_=next(iter(test_dataloader))
-#   #test_seq,test_mask=test_seq.to(device),test_mask.to(device)
-#   preds=f_model(test_seq,test_mask)
-#   #preds=preds.detach().cpu().numpy()
-#   preds=torch.argmax(preds,dim=1).cpu().numpy()
-#   test_labels=y_test
-#   f1 = f1_score(test_labels, preds)
-#   print(f"F1 Score: {f1}")
-
+# Run this to save the results under the data folder, for further analysis
+#results.to_csv("data/predictions.csv", index=False)
