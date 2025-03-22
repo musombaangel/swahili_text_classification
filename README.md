@@ -20,6 +20,9 @@ The dataset can be found here: https://www.kaggle.com/datasets/henrydioniz/swahi
    - Preprocessing using AFRO-XMLR tokenizer for tokenization
    - Model used was Fine-tuned Afro-XLMR
 
+# Choice of Transformer Model
+XLM-RoBERTa by hugging face was used because it is pretrained on 100 different languages, that include African languages like swahili unlike BERT models that are trained on a large corpus of English text, with minimal representation from African languages.
+
 # Results
 - The baseline Model achieved an F1 Score of 0.9825
 - Results from the transformer model to be updated
