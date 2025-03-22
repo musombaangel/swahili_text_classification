@@ -30,5 +30,5 @@ XLM-RoBERTa by hugging face was used because it is pretrained on 100 different l
 
 # Installation
 1. Clone the repository
-2. Ensure all requirements and install dependencies:
+2. Ensure all requirements and install dependencies
 4. Run the notebooks
