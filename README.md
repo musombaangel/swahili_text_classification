@@ -3,6 +3,26 @@ This is a project that classifies swahili texts as scam or trustworthy. Two mode
 1. A baseline logistic regression model
 2. A transformer model (XML-R)
 
+## File structure
+|-- data/
+|   |-- bongo_scam.csv
+|   |-- bongo_scam_cleaned.csv
+|
+|-- extra_report/
+|   |-- extra_report.py
+|
+|-- notebooks/
+|   |-- baseline_model.py
+|   |-- preprocessing.py
+|   |-- transformer_model.py
+|
+|-- reports/
+|   |-- findings.md
+|   |-- visualizations.ipynb
+|
+|-- requirements.txt
+
+
 ## Dependencies
 The model dependencies are listed under the requirements.txt file. All of them can be installed using pip:
 pip install -r requirements.txt
