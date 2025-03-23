@@ -27,6 +27,12 @@ The training loss is significantly lower than the test loss. This could be due t
 
 F1 score: 0.926622. This suggests that the transformer model was very good at classifying the test set.
 
+- **Confusion Matrix Values:**
+- True Positives: 72
+- True Negatives: 21
+- False Positives: 7
+- False Negatives: 0
+
 ## General findings
 
 The base model appears to have performed slightly better than the transformer model. However, this may not be true if a larger dataset was used, as transformers are better suited to capture context and logistic regression is limited to only data that is linearly separable, which may not be true for real-world scam messages.
