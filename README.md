@@ -3,7 +3,16 @@ This is a project that classifies swahili texts as scam or trustworthy. Two mode
 1. A baseline logistic regression model
 2. A transformer model (XML-R)
 
-# License citation
+## Dependencies
+The model dependencies are listed under the requirements.txt file. All of them can be installed using pip:
+pip install -r requirements.txt
+
+# About the data
+The data (bongoscam.csv in the data folder) is a dataset with two columns:
+- Sms: A column with swahili texts.
+- Category: A column with binary values `scam`(scam messages) and `trust` (not spam).
+
+## License citation
 The dataset used in this project is sourced from Kaggle:
 [Swahili SMS Detection Dataset]-[Author name: Henry Dioniz]
 
@@ -20,7 +29,7 @@ The dataset can be found here: https://www.kaggle.com/datasets/henrydioniz/swahi
    - Preprocessing using AFRO-XMLR tokenizer for tokenization
    - Model used was Fine-tuned Afro-XLMR
 
-# Choice of Transformer Model
+## Choice of Transformer Model
 XLM-RoBERTa by hugging face was used because it is pretrained on 100 different languages, that include African languages like swahili unlike BERT models that are trained on a large corpus of English text, with minimal representation from African languages.
 
 # Results
