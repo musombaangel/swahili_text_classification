@@ -4,23 +4,23 @@ This is a project that classifies swahili texts as scam or trustworthy. Two mode
 2. A transformer model (XML-R)
 
 ## File structure
-|-- data/
-|   |-- bongo_scam.csv
-|   |-- bongo_scam_cleaned.csv
-|
-|-- extra_report/
-|   |-- extra_report.py
-|
-|-- notebooks/
-|   |-- baseline_model.py
-|   |-- preprocessing.py
-|   |-- transformer_model.py
-|
-|-- reports/
-|   |-- findings.md
-|   |-- visualizations.ipynb
-|
-|-- requirements.txt
+|-- data/<br>
+|   |-- bongo_scam.csv<br>
+|   |-- bongo_scam_cleaned.csv<br>
+|<br>
+|-- extra_report/<br>
+|   |-- extra_report.py<br>
+|<br>
+|-- notebooks/<br>
+|   |-- baseline_model.py<br>
+|   |-- preprocessing.py<br>
+|   |-- transformer_model.py<br>
+|<br>
+|-- reports/<br>
+|   |-- findings.md<br>
+|   |-- visualizations.ipynb<br>
+|<br>
+|-- requirements.txt<br>
 
 
 ## Dependencies
