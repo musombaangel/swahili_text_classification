@@ -10,6 +10,7 @@ This is a project that classifies swahili texts as scam or trustworthy. Two mode
 |<br>
 |-- extra_report/<br>
 |   |-- extra_report.py<br>
+|   |-- predictions.csv<br>
 |<br>
 |-- notebooks/<br>
 |   |-- baseline_model.py<br>
