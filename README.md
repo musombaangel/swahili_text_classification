@@ -1,5 +1,6 @@
 # Swahili text Classification
-This is a project that classifies swahili texts as scam or trustworthy. Two models were used:
+Classification of Swahili messages as scam or trustworthy.<br>
+Two models were used in this project:
 1. A baseline logistic regression model
 2. A transformer model (XML-R)
 
