@@ -26,7 +26,7 @@ Two models were used in this project:
 
 
 ## Dependencies
-The model dependencies are listed under the requirements.txt file. All of them can be installed using pip:
+The model dependencies are listed under the requirements.txt file. <br>All of them can be installed using pip:
 pip install -r requirements.txt
 
 # About the data
