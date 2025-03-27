@@ -22,6 +22,8 @@ Two models were used in this project:
 |   |-- findings.md<br>
 |   |-- visualizations.ipynb<br>
 |<br>
+|-- images/<br>
+|   |-- wordcloud.png<br>
 |-- requirements.txt<br>
 
 
