@@ -1,4 +1,4 @@
-# Swahili text Classification
+# Swahili Scam Text Classification
 Classification of Swahili messages as scam or trustworthy.<br>
 Two models were used in this project:
 1. A baseline logistic regression model
