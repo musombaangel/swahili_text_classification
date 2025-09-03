@@ -60,7 +60,7 @@ df.to_csv('data/bongo_scam_cleaned.csv',index=False)
    - Tokenization is done using the TF-IDF vectorizer: a statistical measure that evaluates the importance of a word in a document relative to a collection of documents (corpus).
    - Model used was logistic regression from sklearn: an effective traditional algorithm for classification tasks. 
    - Evaluation using F1 score and confusion matrix:<br>
-**F1 Score:** 0.9825 – The model performs extremely well, especially for a traditional logistic regression model.
+**F1 Score:** 0.9825 – The model performs extremely well for a traditional logistic regression model. As this is a small dataset (377 samples), this is likely more attributable to the extreme similarity between scam messages, rather than the efficiency of a logistic regression model in a task involving a low-resource language.
 
 ### Confusion Matrix Values:
 - True Positives: 128
