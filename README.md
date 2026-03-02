@@ -75,7 +75,7 @@ df.to_csv('data/bongo_scam_cleaned.csv',index=False)
      **Choice of Transformer Model**:XLM-RoBERTa by hugging face was used because it is pretrained on 100 different languages, that include African languages like swahili unlike BERT models that are trained on a large corpus of English text, with minimal representation from African languages.
    - The model was trained on the first 500 records with a batch size of 8 and 10 epochs
    - Evaluation using F1 score and confusion matrix<br>
-**F1 score**: `0.926622` - This suggests that the model was pretty good at classifying the texts.<br>
+**F1 score**: `0.926622` - This suggests that the model was still very good at classifying the texts.<br>
 ### Confusion Matrix Values:
 - True Positives: 72
 - True Negatives: 21
@@ -87,4 +87,4 @@ Further details regarding the model performance are available in the reports fol
 # Installation
 1. Clone the repository
 2. Ensure all requirements and install dependencies
-4. Run the notebooks, starting with the preprocessing
+4. Run the notebooks, starting with the preprocessing, followed by the base model then the transformer model
